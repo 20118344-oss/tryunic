@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YOUNIQUE Nails & Spa — Dublin</title>
+  <meta name="description" content="Dublin's premier Asian nail studio. Gel manicures, BIAB, nail art, and spa pedicures by expert technicians." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Nunito+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── NAV ─────────────────────────────────────────────── -->
+<header id="nav">
+  <a class="nav-logo" href="#hero">Younique</a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#booking">Booking</a></li>
+    </ul>
+  </nav>
+  <a class="nav-book" href="#booking">Book Now</a>
+  <button class="nav-burger" id="burger" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- ── HERO ────────────────────────────────────────────── -->
+<section id="hero">
+  <canvas id="petal-canvas"></canvas>
+
+  <div class="hero-content">
+    <span class="hero-eyebrow hero-rule">Where nails become art</span>
+
+    <h1 class="hero-title">Younique</h1>
+    <p class="hero-subtitle">Nails &amp; Spa</p>
+
+    <p class="hero-desc" data-reveal>
+      Where Asian artistry meets the spirit of Ireland.<br/>
+      Precision and artistry in every detail..
+    </p>
+
+    <div class="hero-actions" data-reveal style="transition-delay:.15s">
+      <a class="btn-primary" href="#booking">Book Your Visit</a>
+      <a class="btn-ghost" href="#work">Our Work</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+
+<!-- ── ABOUT ────────────────────────────────────────────── -->
+<section id="about">
+
+  <div class="about-inner">
+    <div class="container">
+
+      <!-- Timeline showcase -->
+      <div class="tl-section">
+        <div class="tl-wrap" id="salon-timeline">
+
+          <!-- Above cards: grid cols 2 & 4 -->
+          <div class="tl-card tl-card--above tl-col-2" style="transition-delay:.3s">
+            <div class="tl-photo"><!-- images/interior1.jpg --></div>
+            <h4 class="tl-card-title">Premium Pedicure Chairs</h4>
+            <p class="tl-card-desc">Luxury spa seating for ultimate comfort</p>
+            <span class="tl-dot" style="transition-delay:.3s"></span>
+          </div>
+          <div class="tl-card tl-card--above tl-col-4" style="transition-delay:.7s">
+            <div class="tl-photo"><!-- images/interior2.jpg --></div>
+            <h4 class="tl-card-title">Sterilisation Station</h4>
+            <p class="tl-card-desc">Hospital-grade hygiene standards</p>
+            <span class="tl-dot" style="transition-delay:.7s"></span>
+          </div>
+
+          <!-- Horizontal axis: line only — dots are now on each card -->
+          <div class="tl-axis">
+            <div class="tl-axis-line"></div>
+          </div>
+
+          <!-- Below cards: grid cols 1, 3, 5 -->
+          <div class="tl-card tl-card--below tl-col-1" style="transition-delay:.15s">
+            <span class="tl-dot" style="transition-delay:.15s"></span>
+            <div class="tl-photo"><!-- images/tools1.jpg --></div>
+            <h4 class="tl-card-title">Japanese Gel Collection</h4>
+            <p class="tl-card-desc">Imported premium gel products</p>
+          </div>
+          <div class="tl-card tl-card--below tl-col-3" style="transition-delay:.55s">
+            <span class="tl-dot" style="transition-delay:.55s"></span>
+            <div class="tl-photo"><!-- images/tools2.jpg --></div>
+            <h4 class="tl-card-title">Nail Art Tools</h4>
+            <p class="tl-card-desc">Precision brushes and accessories</p>
+          </div>
+          <div class="tl-card tl-card--below tl-col-5" style="transition-delay:.95s">
+            <span class="tl-dot" style="transition-delay:.95s"></span>
+            <div class="tl-photo"><!-- images/tools3.jpg --></div>
+            <h4 class="tl-card-title">UV/LED Technology</h4>
+            <p class="tl-card-desc">Latest curing technology</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Centered copy -->
+      <div class="about-copy" data-reveal style="transition-delay:.08s">
+        <span class="eyebrow">About Us</span>
+        <h2 class="about-copy-heading">
+          Asian artistry,<br/><em>rooted in Wexford</em>
+        </h2>
+        <p class="about-copy-text">A team of Japanese and Chinese nail technicians bringing East Asian precision to the heart of Wexford. Known for flawless technique, clean execution, and an obsessive eye for detail.</p>
+
+        <hr class="about-divider" />
+
+        <div class="about-values">
+          <div class="aval">
+            <span class="aval-name">Precision</span>
+            <span class="aval-desc">Every shape and finish executed with full attention.</span>
+          </div>
+          <div class="aval">
+            <span class="aval-name">Artistry</span>
+            <span class="aval-desc">From clean minimalism to intricate hand-painted designs.</span>
+          </div>
+          <div class="aval">
+            <span class="aval-name">Care</span>
+            <span class="aval-desc">Same obsessive attention to detail, every client, every visit.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div class="about-services-zone">
+        <span class="eyebrow" style="display:block; margin-bottom:1.2rem;">Services</span>
+        <div class="about-services" data-reveal>
+          <div class="svc-tile">
+            <span class="svc-tile-name">Gel Manicure</span>
+            <span class="svc-tile-tag">Manicure</span>
+          </div>
+          <div class="svc-tile">
+            <span class="svc-tile-name">BIAB</span>
+            <span class="svc-tile-tag">Builder Gel</span>
+          </div>
+          <div class="svc-tile">
+            <span class="svc-tile-name">Acrylic Extensions</span>
+            <span class="svc-tile-tag">Extensions</span>
+          </div>
+          <div class="svc-tile">
+            <span class="svc-tile-name">Nail Art</span>
+            <span class="svc-tile-tag">Custom Design</span>
+          </div>
+          <div class="svc-tile">
+            <span class="svc-tile-name">Spa Pedicure</span>
+            <span class="svc-tile-tag">Pedicure</span>
+          </div>
+          <div class="svc-tile">
+            <span class="svc-tile-name">Shellac</span>
+            <span class="svc-tile-tag">Gel Polish</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ── PORTFOLIO MARQUEE ──────────────────────────────── -->
+<section id="work">
+  <div class="container">
+    <div class="showcase-header">
+      <span class="eyebrow" data-reveal>Portfolio</span>
+      <h2 class="showcase-heading" data-reveal style="transition-delay:.07s">Our latest <em>work</em></h2>
+      <p class="showcase-sub" data-reveal style="transition-delay:.14s">Hover to pause &nbsp;·&nbsp; click to enlarge</p>
+    </div>
+  </div>
+
+  <div class="marquee-outer">
+    <div class="marquee-wrap">
+
+      <!-- Row 1: s1–s8, duplicated for seamless loop -->
+      <div class="marquee-row marquee-row--fwd" aria-hidden="true">
+        <div class="mq-card"><img src="images/s1.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s2.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s3.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s4.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s5.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s6.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s7.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s8.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s1.jpg"  alt=""></div>
+        <div class="mq-card"><img src="images/s2.jpg"  alt=""></div>
+        <div class="mq-card"><img src="images/s3.jpg"  alt=""></div>
+        <div class="mq-card"><img src="images/s4.jpg"  alt=""></div>
+        <div class="mq-card"><img src="images/s5.jpg"  alt=""></div>
+        <div class="mq-card"><img src="images/s6.jpg"  alt=""></div>
+        <div class="mq-card"><img src="images/s7.jpg"  alt=""></div>
+        <div class="mq-card"><img src="images/s8.jpg"  alt=""></div>
+      </div>
+
+      <!-- Row 2: s9–s15, duplicated, scrolls opposite direction -->
+      <div class="marquee-row marquee-row--rev" aria-hidden="true">
+        <div class="mq-card"><img src="images/s9.jpg"  alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s10.jpg" alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s11.jpg" alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s12.jpg" alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s13.jpg" alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s14.jpg" alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s15.jpg" alt="Nail art by YOUNIQUE"></div>
+        <div class="mq-card"><img src="images/s9.jpg"  alt=""></div>
+        <div class="mq-card"><img src="images/s10.jpg" alt=""></div>
+        <div class="mq-card"><img src="images/s11.jpg" alt=""></div>
+        <div class="mq-card"><img src="images/s12.jpg" alt=""></div>
+        <div class="mq-card"><img src="images/s13.jpg" alt=""></div>
+        <div class="mq-card"><img src="images/s14.jpg" alt=""></div>
+        <div class="mq-card"><img src="images/s15.jpg" alt=""></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox overlay -->
+<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button id="lb-close" aria-label="Close viewer">&#215;</button>
+  <button id="lb-prev" aria-label="Previous photo">&#8592;</button>
+  <img id="lb-img" src="" alt="YOUNIQUE nail art" />
+  <button id="lb-next" aria-label="Next photo">&#8594;</button>
+</div>
+
+<!-- ── FAQ ──────────────────────────────────────────────── -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-layout">
+
+      <div class="faq-aside" data-reveal>
+        <span class="eyebrow">FAQ</span>
+        <h2>Common<br/><em>questions</em></h2>
+        <p>Can't find what you're looking for? Drop us a message through the booking form and we'll get back to you.</p>
+      </div>
+
+      <div class="faq-list" data-reveal style="transition-delay:.1s">
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false">
+            <span class="faq-q">What services do you offer?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              <p>We specialise in gel manicures, BIAB (Builder in a Bottle), acrylic nail extensions, nail art, spa pedicures, and Shellac. We also offer seasonal collections and bespoke nail art — ask us at booking.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false">
+            <span class="faq-q">How long does an appointment take?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              <p>A gel manicure takes approximately 60–75 minutes. A full acrylic set with nail art can take up to 2–2.5 hours. We'll always give you a clear time estimate when you book so you can plan your day.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false">
+            <span class="faq-q">Do I need to book in advance?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              <p>We strongly recommend booking in advance to secure your preferred time and technician. We do our best to accommodate walk-ins when availability allows, but same-day spots can be limited, especially on weekends.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false">
+            <span class="faq-q">What nail products do you use?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              <p>We work exclusively with professional-grade products — CND Shellac, OPI, Gelish, and premium Japanese gel brands. All products we use are cruelty-free and formulated to be kind to your nails and skin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false">
+            <span class="faq-q">Do you offer nail art and custom designs?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              <p>Absolutely. Our technicians are trained in a wide range of techniques — from clean minimalist linework and negative space to intricate 3D floral and hand-painted art. Bring your inspiration and we'll create something personal to you.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false">
+            <span class="faq-q">Where are you located and what are your hours?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              <p>We're based in Wexford, Ireland. Our studio is open Tuesday to Saturday, 10:00am – 7:00pm, and Sunday 11:00am – 5:00pm. We're closed on Mondays. Exact address will be confirmed when you book.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── BOOKING ───────────────────────────────────────────── -->
+<section id="booking">
+  <canvas id="booking-canvas"></canvas>
+  <canvas id="flower-canvas"></canvas>
+  <div class="container">
+    <div class="booking-inner">
+
+      <div class="booking-copy" data-reveal>
+        <span class="eyebrow">Booking</span>
+        <h2>Reserve your<br/><em>moment of care</em></h2>
+        <p>
+          Fill in the form and we'll confirm your appointment within a few hours.
+          For same-day requests, please call us directly.
+        </p>
+        <div class="booking-details">
+          <div class="booking-detail">
+            <span class="booking-detail-label">Studio</span>
+            <span class="booking-detail-val">YOUNIQUE Nails &amp; Spa, Wexford</span>
+          </div>
+          <div class="booking-detail">
+            <span class="booking-detail-label">Hours</span>
+            <span class="booking-detail-val">Monday – Saturday 9AM – 7PM </span>
+          </div>
+          <div class="booking-detail">
+            <span class="booking-detail-label">Closed</span>
+            <span class="booking-detail-val">Sunday</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="booking-form" data-reveal style="transition-delay:.15s" onsubmit="handleBooking(event)">
+        <div class="form-row">
+          <div class="form-field">
+            <label>First Name</label>
+            <input type="text" placeholder="Sophie" required />
+          </div>
+          <div class="form-field">
+            <label>Last Name</label>
+            <input type="text" placeholder="Murphy" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label>Email</label>
+            <input type="email" placeholder="sophie@email.com" required />
+          </div>
+          <div class="form-field">
+            <label>Phone</label>
+            <input type="tel" placeholder="+353 85 000 0000" />
+          </div>
+        </div>
+        <div class="form-field full">
+          <label>Service</label>
+          <select>
+            <option value="" disabled selected>Select a service</option>
+            <option>Gel Manicure</option>
+            <option>BIAB (Builder in a Bottle)</option>
+            <option>Acrylic Extensions</option>
+            <option>Nail Art</option>
+            <option>Spa Pedicure</option>
+            <option>Shellac</option>
+            <option>Other — let me describe below</option>
+          </select>
+        </div>
+        <div class="form-field full">
+          <label>Preferred Date &amp; Time</label>
+          <input type="text" placeholder="e.g. Saturday afternoon, any week" />
+        </div>
+        <div class="form-field full">
+          <label>Notes or inspiration</label>
+          <textarea placeholder="Any design ideas, references, or requests…"></textarea>
+        </div>
+        <button class="form-submit" type="submit">Send Request</button>
+      </form>
+
+    </div>
+  </div>
+  <p id="bloom-hint">tap to bloom</p>
+</section>
+
+<!-- ── FOOTER ────────────────────────────────────────────── -->
+<footer>
+  <span class="footer-logo">Younique</span>
+  <span class="footer-copy">© 2026 YOUNIQUE Nails &amp; Spa · Wexford, Ireland</span>
+  <span class="footer-credit">Design <a href="https://bylund.studio/" target="_blank" rel="noopener">bylund.studio</a></span>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
